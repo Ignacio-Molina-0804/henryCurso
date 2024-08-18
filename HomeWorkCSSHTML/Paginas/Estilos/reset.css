@@ -1,0 +1,100 @@
+/* Reset CSS v1.0 | 2024 */
+
+/* Elimina márgenes, paddings y bordes predeterminados */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Configuración de línea base para elementos HTML5 */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Heredar el tamaño de fuente en HTML */
+html {
+    font-size: 100%; /* Para asegurar una base consistente de 16px */
+    box-sizing: border-box;
+}
+
+/* Configuración global de box-sizing para manejar padding y border */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Restablecer listas */
+
+
+/* Restablecer imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Restablecer citas */
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* Restablecer tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Restablecer anclas */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Restablecer formularios y campos de entrada */
+input, button, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Eliminar decoración de texto en enlaces */
+a, a:visited, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Eliminar outline en elementos interactivos cuando se clickean */
+button, input, select, textarea {
+    outline: none;
+}
+
+/* Normalizar contenedor principal de la página */
+body {
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
